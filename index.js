@@ -86,7 +86,7 @@ app.post("/stk", generateToken, async (req, res) => {
           PartyA: `254${phone}`,
           PartyB: shortCode,
           PhoneNumber: `254${phone}`,
-          CallBackURL: "https://7e15-197-237-32-226.in.ngrok.io/callback",
+          CallBackURL: "https://mpesa-backend.herokuapp.com/callback",
           AccountReference: "ayub simbaa",
           TransactionDesc: "test",
         },
